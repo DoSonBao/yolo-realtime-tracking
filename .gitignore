@@ -1,0 +1,25 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# YOLO weights and training output
+*.pt
+runs/
+
+# Camera images and collected data
+camera_input.jpg
+yolo_result.jpg
+collected_data/
+*.mp4
+*.avi
+
+# Secrets
+.env
+.env.*
+!.env.example
